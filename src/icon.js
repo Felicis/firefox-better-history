@@ -19,7 +19,7 @@ const Icon = (props) => {
         }
     }
 
-    return <img {...props} onError={onError}/>;
+    return <img {...props}/>;
 };
 
 export default Icon;
